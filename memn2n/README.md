@@ -2,6 +2,10 @@
 
 The results are affected by the initialization a lot. The following results are got by setting the ``random_state`` to 2033, epochs 200.
 
+```
+$ python main.py --use_cuda
+```
+
 | task | train acc | val acc |
 | ---- | --------- | ------- |
 | 1    | 1.0000    | 0.9960  |
